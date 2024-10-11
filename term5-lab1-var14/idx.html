@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">erty</header>
+      <aside class="left">gdg</aside>
+      <main class="main">gdgd333</main>
+      <aside class="right">jytr</aside>
+      <footer class="footer">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A8178d163bd87a7c7c64d8090a848fde1a3a6b1184f70cf830ba4019b44821953&amp;source=constructor"
+          width="100%"
+          height="400"
+          frameborder="0"
+        ></iframe>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<style>
+  .wrapper {
+    display: grid;
+    grid-template-columns: 200px 1fr 400px;
+    grid-template-rows: auto;
+    column-gap: 40px;
+    grid-template-areas:
+      'header header header'
+      'left main right'
+      'footer footer footer';
+  }
+  .header {
+    grid-area: header;
+    height: 80px;
+  }
+  .left {
+    grid-area: left;
+    background: #cdd5ff;
+  }
+  .right {
+    grid-area: right;
+    background: #baffb3;
+  }
+  .main {
+    grid-area: main;
+    background: #ffdcdc;
+  }
+  .footer {
+    grid-area: footer;
+    background: #959595;
+    height: 100px;
+  }
+</style>
