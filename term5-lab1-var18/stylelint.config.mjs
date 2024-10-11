@@ -1,7 +1,7 @@
 /** @type {import('stylelint').Config} */
 export default {
   extends: [
-    'stylelint-config-recommended-vue',
+    'stylelint-config-recommended',
     'stylelint-config-clean-order',
   ],
   reportDescriptionlessDisables: true,
