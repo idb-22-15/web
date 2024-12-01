@@ -13,3 +13,6 @@
 [submodule "term5-cruessida"]
 	path = term5-cruessida
 	url = https://github.com/Artemiy111/cruessida
+[submodule "term5-dim-solidstart"]
+	path = term5-dim-solidstart
+	url = https://github.com/idb-22-15/web-term5-dim-solidstart
