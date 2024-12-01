@@ -4,3 +4,6 @@
 [submodule "term5-vit-pegasus"]
 	path = term5-vit-pegasus
 	url = https://github.com/Artemiy111/pegasus
+[submodule "term5-gelius-nextjs"]
+	path = term5-gelius-nextjs
+	url = https://github.com/Artemiy111/gelius-nextjs
