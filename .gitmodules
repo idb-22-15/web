@@ -10,3 +10,6 @@
 [submodule "term5-gelios-nextjs"]
 	path = term5-gelios-nextjs
 	url = https://github.com/Artemiy111/gelios-nextjs
+[submodule "term5-cruessida"]
+	path = term5-cruessida
+	url = https://github.com/Artemiy111/cruessida
