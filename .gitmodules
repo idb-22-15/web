@@ -1,3 +1,6 @@
 [submodule "term5-art"]
 	path = term5-art
 	url = https://github.com/Artemiy111/gelios
+[submodule "term5-vit-pegasus"]
+	path = term5-vit-pegasus
+	url = https://github.com/Artemiy111/pegasus
